@@ -1,0 +1,175 @@
+.get_in_touch {
+    max-width: 696px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 100px 20px;
+    @media (max-width: 1024px) {
+      padding: 4rem 20px;
+    }
+    @media (max-width: 767px) {
+      padding: 2.5rem 16px;
+    }
+    .heading {
+      margin-bottom: 30px;
+      @media (max-width: 767px) {
+        margin-bottom: 25px;
+      }
+      h2{
+        margin-bottom: 10px;
+      }
+      p{
+        font-size: 15.25px;
+        line-height: 22px;
+        max-width: 465.14px;
+        font-weight: 500;
+      }
+    }
+    .get_in_touch_form {
+      ::placeholder {
+        color: rgba(39,39,39, 1);
+      }
+      
+      ::-ms-input-placeholder {
+        color: rgba(39,39,39, 1);
+      }
+      .form_row {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        @media (max-width: 575px) {
+          display: block;
+        }
+        .form_group {
+          flex: 0 0 50%;
+          .form_control::placeholder{
+            opacity: 0.2;
+          }
+          &:nth-child(1) {
+            padding-right: 12px;
+            @media (max-width: 575px) {
+              padding: 0;
+            }
+          }
+          &:nth-child(2) {
+            padding-left: 12px;
+            @media (max-width: 575px) {
+              padding: 0;
+            }
+          }
+          .form_control {
+            width: 100%;
+          }
+        }
+      }
+      .form_group {
+        margin-bottom: 14px;
+        textarea {
+          width: 100%;
+        }
+        textarea::placeholder{
+          opacity: 0.2;
+        }
+        .form_control {
+          border: 1.05px solid #dedede;
+          border-radius: 0;
+          background: #f4f1e9;
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 22px;
+          letter-spacing: 0em;
+          text-align: left;
+          padding: 20px 24px;
+          outline: none;
+          font-family: var(--font-montserrat);
+          color: #090909;
+          @media (max-width: 767px) {
+            font-size: 14px;
+            line-height: 20px;
+            padding: 14px 15px;
+          }
+          &:focus {
+            border: 1.05px solid #12192c;
+          }
+        }
+      }
+      .form_group_checkbox {
+        margin-bottom: 16px;
+        .form_checkbox_container {
+          display: block;
+          position: relative;
+          padding-left: 30px;
+          margin-bottom: 32px;
+          margin-top: 32px;
+          cursor: pointer;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 28px;
+          font-family: var(--font-montserrat);
+          @media (max-width: 767px) {
+            font-size: 14px;
+            line-height: 20px;
+            padding-right: 40px;
+          }
+
+          input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+            height: 0;
+            width: 0;
+            &:checked ~ .form_checkbox_checkmark {
+              background-color: #12192C;
+              &:after {
+                display: block;
+              }
+            }
+          }
+          .form_checkbox_checkmark {
+            position: absolute;
+            top: 3px;
+            left: 0;
+            height: 20px;
+            width: 20px;
+            border: 1.05px solid #12192C;
+            border-radius: 2px;
+            &:after {
+              content: "";
+              position: absolute;
+              display: none;
+              left: 6px;
+              top: 2px;
+              width: 4px;
+              height: 9px;
+              border: solid white;
+              border-width: 0 3px 3px 0;
+              -webkit-transform: rotate(45deg);
+              -ms-transform: rotate(45deg);
+              transform: rotate(45deg);
+            }
+          }
+        }
+      }
+      .form_submit {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 19px;
+        letter-spacing: 4px;
+        padding: 24px 60px;
+        background-color: #12192c;
+        font-family: var(--font-montserrat);
+        border: none;
+        color: #fff;
+        min-width: 216px;
+        border-radius: 2px;
+        @media (max-width: 767px) {
+          font-size: 12px;
+          line-height: 16px;
+          padding: 18px;
+        }
+      }
+    }
+  }
