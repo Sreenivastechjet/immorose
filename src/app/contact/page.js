@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import styles from "./page.module.scss";
-import CallToAction from "@/components/CallToAction";
+// import CallToAction from "@/components/CallToAction";
 import Link from "next/link";
 import Image from "next/image";
 import GetInTouch from "@/components/GetInTouch";
@@ -15,7 +15,6 @@ import { FaAngleRight, FaAngleUp, FaAngleDown } from "react-icons/fa6";
 // third party imports
 import AOS from "aos";
 import "aos/dist/aos.css";
-import ContactCallToAction from "@/components/CallToAction/ContactCallToAction";
 
 const ContactUs = () => {
   const [activeTab, setActiveTab] = useState("tab1");
@@ -78,7 +77,6 @@ const ContactUs = () => {
       <GetInTouch />
       {/* Schedule a call */}
       {/* <CallToAction /> */}
-      <ContactCallToAction/>
       {/* Frequently Asked questions */}
       <section className={styles.faq}>
         <div className={styles.faq_inner}>

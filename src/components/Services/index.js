@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import Image from 'next/image';
 import styles from "./services.module.scss";
-import ServiceImg1 from "../../../public/assets/images/services_img1.webp";
-import ServiceImg2 from "../../../public/assets/images/services_img2.webp";
-import ServiceImg3 from "../../../public/assets/images/services_img3.webp";
-import ServiceImg4 from "../../../public/assets/images/services_img4.webp";
+import ServiceImg1 from "../../../public/assets/images/services_img1.png";
+import ServiceImg2 from "../../../public/assets/images/services_img2.png";
+import ServiceImg3 from "../../../public/assets/images/services_img3.png";
+import ServiceImg4 from "../../../public/assets/images/services_img4.png";
 
 // third party imports
 import "swiper/css";
