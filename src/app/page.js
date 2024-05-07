@@ -244,9 +244,7 @@ export default function Home() {
         <div className={styles.about_sec}>
           <h3 data-aos="fade-up">ABOUT US</h3>
           <p data-aos="fade-up">
-            We take great pride in ensuring the satisfaction of our customers.
-            That's why we proudly guarantee the quality and reliability of our
-            products.
+          In Kinshasa, IMMOROSE is the market leader in luxury real estate. Our expertise spans high-end residential properties, offices, and luxury commercial.
           </p>
           <Link
             href="#"
