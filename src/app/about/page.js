@@ -53,12 +53,16 @@ const Counter = ({ value, label, isVisible }) => {
     config: { duration: 2000 },
     onRest: () => setAnimatedValue(value),
   });
+  // Function to format number with commas
+  const formatNumber = (num) => {
+    return num.toLocaleString();
+  };
 
   return (
     <>
       <h4 className={styles.counter}>
         <animated.span>
-          {number.interpolate((val) => Math.floor(val))}
+          {number.interpolate((val) => formatNumber(Math.floor(val)))}
         </animated.span>
         {label !== "Rented Home Stay" && "+"}
       </h4>
@@ -334,8 +338,8 @@ const About = () => {
                 <h3>Our Mission</h3>
                 <p>
                   To provide high-end real estate by meeting the needs and requiremment for exlusive and luxurious properties.
-To provide an impeccable amd personalised level of service to our clients by off ering developping investment strategies tailored to our clients needs and objectives.
-Guaranteeing confi dentiality information and discretion for our privileged clients, by respecting their privacy treating all confi dential information with utmost importance.
+                  To provide an impeccable amd personalised level of service to our clients by off ering developping investment strategies tailored to our clients needs and objectives.
+                  Guaranteeing confi dentiality information and discretion for our privileged clients, by respecting their privacy treating all confi dential information with utmost importance.
                 </p>
               </li>
             </ul>

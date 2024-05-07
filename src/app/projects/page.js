@@ -12,6 +12,10 @@ import Services from "@/components/Services";
 import DoubleBedIcon from "../../../public/assets/images/double-bed.svg";
 import LocationIcon from "../../../public/assets/images/location_icon.svg";
 import WideIcon from "../../../public/assets/images/wide.svg";
+import Parking from "../../../public/assets/images/parking.svg";
+import Floors from "../../../public/assets/images/Floors.svg";
+import Elevators from "../../../public/assets/images/Elevators.svg";
+import Bathtub from "../../../public/assets/images/bathtub.svg";
 
 // Images
 import BannerVector from "../../../public/assets/images/project_banner_vector.webp";
@@ -63,16 +67,32 @@ const Projects = () => {
     setActiveTab(tabId);
   };
 
-  const images = [
-    "/assets/images/slider1_1.webp",
-    "/assets/images/slider1_2.webp",
-    "/assets/images/slider1_3.webp",
-    "/assets/images/slider1_4.webp",
+  const images0 = [
+    "/assets/images/slider1_1.jpg",
+    "/assets/images/slider1_2.jpg",
+    "/assets/images/slider1_3.jpg",
+    "/assets/images/slider1_4.jpg",
+  ];
+  const images1 = [
+    "/assets/images/slider2_1.jpg",
+    "/assets/images/slider2_2.jpg",
+    "/assets/images/slider2_3.jpg",
+    "/assets/images/slider2_4.jpg",
+  ];
+  const images2 = [
+    "/assets/images/slider3_1.jpg",
+    "/assets/images/slider3_2.jpg",
+    "/assets/images/slider3_3.jpg",
+    "/assets/images/slider3_4.jpg",
   ];
 
-  const [activeIndexes, setActiveIndexes] = useState(
-    Array(images.length).fill(0)
-  );
+  const initialActiveIndexes = [
+    Array(images0.length).fill(0),
+    Array(images1.length).fill(0),
+    Array(images2.length).fill(0),
+  ];
+  const [activeIndexes, setActiveIndexes] = useState(initialActiveIndexes);
+
   const swiperRefs = useRef([]);
 
   const handleSlideChange = (sliderIndex) => (swiper) => {
@@ -204,11 +224,8 @@ const Projects = () => {
             {activeTab === "tab1" && (
               <div className={styles.project_item}>
                 <div className={styles.luxury_box}>
-                  {[...Array(4)].map((_, sliderIndex) => (
-                    <div
-                      className={styles.luxury_box_content}
-                      key={sliderIndex}
-                    >
+                  {/* First Swiper */}
+                  <div className={styles.luxury_box_content} key={0}>                  
                       <div className={styles.Luxury_img_slider}>
                         <Swiper
                           modules={[Autoplay]}
@@ -217,37 +234,37 @@ const Projects = () => {
                           autoplay={{ delay: 4000 }}
                           className={styles.swiper_images_wrap}
                           onSwiper={(swiper) =>
-                            (swiperRefs.current[sliderIndex] = swiper)
+                            (swiperRefs.current[0] = swiper)
                           }
-                          onSlideChange={handleSlideChange(sliderIndex)}
+                          onSlideChange={handleSlideChange(0)}
                         >
-                          {images.map((image, index) => (
+                          {images0.map((image, index) => (
                             <SwiperSlide key={index}>
                               <img
                                 src={image}
-                                alt={`Slider ${sliderIndex + 1}`}
+                                alt={`Slider ${0 + 1}`}
                               />
                             </SwiperSlide>
                           ))}
                         </Swiper>
                       </div>
                       <ul className={styles.Luxury_img_slider_option}>
-                        {images.map((_, imageIndex) => {
+                        {images0.map((_, imageIndex) => {
                           return (
                             <li
                               key={imageIndex}
                               className={
-                                activeIndexes[sliderIndex] === imageIndex
+                                activeIndexes[0] === imageIndex
                                   ? styles.active
                                   : ""
                               }
                               onClick={() =>
-                                handleOptionClick(sliderIndex, imageIndex)
+                                handleOptionClick(0, imageIndex)
                               }
                             >
                               <img
-                                src={images[imageIndex]}
-                                alt={`Slider ${sliderIndex + 1}`}
+                                src={images0[imageIndex]}
+                                alt={`Slider ${0 + 1}`}
                               />
                             </li>
                           );
@@ -257,34 +274,181 @@ const Projects = () => {
                         <div className={styles.heading}>
                           <h3>Rosons Towers</h3>
                           <p>
-                            We take great pride in ensuring the satisfaction of
-                            our customers. That's why we proudly guarantee the
-                            quality and reliability of our products.
+                          Rosons Tower, located on boulevard Du 30 Juin, is ideal for operating your business in the heart of Kinshasa. It’s where modern architecture blends with sophisticated design to create secure, smart and spacious offices behind a beautifully crafted facade.
+                          </p>
+                        </div>
+                        <ul className={styles.luxury_services}>
+                          <li>
+                            <Image src={Floors} alt="double bed" />{" "}
+                            <span>11 floors</span>
+                          </li>
+                          <li>
+                            <Image src={Elevators} alt="bathtub" />{" "}
+                            <span>3 elevators </span>
+                          </li>
+                          <li>
+                            <Image src={WideIcon} alt="wide " />{" "}
+                            <span>10000 sq ft area</span>
+                          </li>
+                        </ul>
+                        <Link
+                          href={`/projects/${0 + 1}`}
+                          className={`cmn_btn filled_btn ${styles.btn}`}
+                        >
+                          EXPLORE LUXURY
+                        </Link>
+                    </div>
+                  </div>
+                  {/* Second Swiper */}
+                  <div className={styles.luxury_box_content} key={1}>
+                  <div className={styles.Luxury_img_slider}>
+                        <Swiper
+                          modules={[Autoplay]}
+                          spaceBetween={0}
+                          slidesPerView={1}
+                          autoplay={{ delay: 4000 }}
+                          className={styles.swiper_images_wrap}
+                          onSwiper={(swiper) =>
+                            (swiperRefs.current[1] = swiper)
+                          }
+                          onSlideChange={handleSlideChange(1)}
+                        >
+                          {images1.map((image, index) => (
+                            <SwiperSlide key={index}>
+                              <img
+                                src={image}
+                                alt={`Slider ${1 + 1}`}
+                              />
+                            </SwiperSlide>
+                          ))}
+                        </Swiper>
+                      </div>
+                      <ul className={styles.Luxury_img_slider_option}>
+                        {images1.map((_, imageIndex) => {
+                          return (
+                            <li
+                              key={imageIndex}
+                              className={
+                                activeIndexes[1] === imageIndex
+                                  ? styles.active
+                                  : ""
+                              }
+                              onClick={() =>
+                                handleOptionClick(1, imageIndex)
+                              }
+                            >
+                              <img
+                                src={images1[imageIndex]}
+                                alt={`Slider ${1 + 1}`}
+                              />
+                            </li>
+                          );
+                        })}
+                      </ul>
+                      <div className={styles.luxury_box_content_box}>
+                        <div className={styles.heading}>
+                          <h3>9 Carats</h3>
+                          <p>
+                          Discover our sumptuous villas in a peaceful residence with car parks, consisting of 9 modern and luxurious villas with a clubhouse for your leisure activities and receptions. Experience luxury and comfort on your doorstep where the villas are located in a prime privileged area.
                           </p>
                         </div>
                         <ul className={styles.luxury_services}>
                           <li>
                             <Image src={DoubleBedIcon} alt="double bed" />{" "}
-                            <span>10+ amenities, floor plans, etc</span>
+                            <span>4 Bedrooms</span>
                           </li>
                           <li>
-                            <Image src={LocationIcon} alt="bathtub" />{" "}
-                            <span>126 Boulevard du 30 Juin, Gombe. </span>
+                            <Image src={Bathtub} alt="bathtub" />{" "}
+                            <span>7 Bathrooms</span>
                           </li>
                           <li>
                             <Image src={WideIcon} alt="wide " />{" "}
-                            <span>2500 sq. ft Area</span>
+                            <span>450 sq. ft Area</span>
                           </li>
                         </ul>
                         <Link
-                          href={`/projects/${sliderIndex + 1}`}
+                          href={`/projects/${1 + 1}`}
                           className={`cmn_btn filled_btn ${styles.btn}`}
                         >
                           EXPLORE LUXURY
                         </Link>
-                      </div>
                     </div>
-                  ))}
+                  </div>
+                  {/* Third Swiper */}
+                  <div className={styles.luxury_box_content} key={2}>
+                  <div className={styles.Luxury_img_slider}>
+                        <Swiper
+                          modules={[Autoplay]}
+                          spaceBetween={0}
+                          slidesPerView={1}
+                          autoplay={{ delay: 4000 }}
+                          className={styles.swiper_images_wrap}
+                          onSwiper={(swiper) =>
+                            (swiperRefs.current[2] = swiper)
+                          }
+                          onSlideChange={handleSlideChange(2)}
+                        >
+                          {images2.map((image, index) => (
+                            <SwiperSlide key={index}>
+                              <img
+                                src={image}
+                                alt={`Slider ${2 + 1}`}
+                              />
+                            </SwiperSlide>
+                          ))}
+                        </Swiper>
+                      </div>
+                      <ul className={styles.Luxury_img_slider_option}>
+                        {images2.map((_, imageIndex) => {
+                          return (
+                            <li
+                              key={imageIndex}
+                              className={
+                                activeIndexes[2] === imageIndex
+                                  ? styles.active
+                                  : ""
+                              }
+                              onClick={() =>
+                                handleOptionClick(2, imageIndex)
+                              }
+                            >
+                              <img
+                                src={images2[imageIndex]}
+                                alt={`Slider ${2 + 1}`}
+                              />
+                            </li>
+                          );
+                        })}
+                      </ul>
+                      <div className={styles.luxury_box_content_box}>
+                        <div className={styles.heading}>
+                          <h3>Le cuivre</h3>
+                          <p>
+                          Our new large-scale project combines administrative functionality and commercial space. An incredible 23-story tower combining offices, shops, and a restaurant elevates the urban landscape of the city of Kinshasa on Boulevard Du 30 Juin.
+                          </p>
+                        </div>
+                        <ul className={styles.luxury_services}>
+                          <li>
+                            <Image src={Floors} alt="double bed" />{" "}
+                            <span>23 floors</span>
+                          </li>
+                          <li>
+                            <Image src={Parking} alt="bathtub" />{" "}
+                            <span>4 floors of parking area</span>
+                          </li>
+                          <li>
+                            <Image src={WideIcon} alt="wide " />{" "}
+                            <span>53,370 sqm area built</span>
+                          </li>
+                        </ul>
+                        <Link
+                          href={`/projects/${3 + 1}`}
+                          className={`cmn_btn filled_btn ${styles.btn}`}
+                        >
+                          EXPLORE LUXURY
+                        </Link>
+                    </div>
+                  </div>
                 </div>
               </div>
             )}

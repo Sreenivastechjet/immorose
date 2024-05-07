@@ -15,6 +15,7 @@ import { FaAngleRight, FaAngleUp, FaAngleDown } from "react-icons/fa6";
 // third party imports
 import AOS from "aos";
 import "aos/dist/aos.css";
+import ContactCallToAction from "@/components/CallToAction/ContactCallToAction";
 
 const ContactUs = () => {
   const [activeTab, setActiveTab] = useState("tab1");
@@ -76,7 +77,8 @@ const ContactUs = () => {
       {/* Get In Touch */}
       <GetInTouch />
       {/* Schedule a call */}
-      <CallToAction />
+      {/* <CallToAction /> */}
+      <ContactCallToAction/>
       {/* Frequently Asked questions */}
       <section className={styles.faq}>
         <div className={styles.faq_inner}>

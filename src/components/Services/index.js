@@ -90,7 +90,7 @@ function Services() {
       <div className={styles.service_inner_slider}>
         <Swiper
           modules={[Autoplay]}
-          // autoplay={{ delay: 5000 }}
+          autoplay={{ delay: 5000 }}
           spaceBetween={7}
           slidesPerView={1.1}
           centeredSlides={true}

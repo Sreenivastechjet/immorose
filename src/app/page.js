@@ -30,6 +30,9 @@ import HeroBgVector from "../../public/assets/images/hero_bg_tree.webp";
 import DoubleBedIcon from "../../public/assets/images/double-bed.svg";
 import BathtubIcon from "../../public/assets/images/bathtub.svg";
 import WideIcon from "../../public/assets/images/wide.svg";
+import Parking from "../../public/assets/images/parking.svg";
+import Floors from "../../public/assets/images/Floors.svg";
+import Elevators from "../../public/assets/images/Elevators.svg";
 
 const Counter = ({ value, label, isVisible }) => {
   const [animatedValue, setAnimatedValue] = useState(0);
@@ -40,12 +43,16 @@ const Counter = ({ value, label, isVisible }) => {
     config: { duration: 2000 },
     onRest: () => setAnimatedValue(value),
   });
+  // Function to format number with commas
+  const formatNumber = (num) => {
+    return num.toLocaleString();
+  };
 
   return (
     <>
       <h4 className={styles.counter}>
         <animated.span>
-          {number.interpolate((val) => Math.floor(val))}
+          {number.interpolate((val) => formatNumber(Math.floor(val)))}
         </animated.span>
         {label !== "Rented Home Stay" && "+"}
       </h4>
@@ -416,11 +423,11 @@ export default function Home() {
                         </p>
                         <ul className={styles.luxury_services}>
                           <li>
-                            <Image src={DoubleBedIcon} alt="double bed" />{" "}
+                            <Image src={Floors} alt="double bed" />{" "}
                             <span>11 floors</span>
                           </li>
                           <li>
-                            <Image src={BathtubIcon} alt="bathtub" />{" "}
+                            <Image src={Elevators} alt="bathtub" />{" "}
                             <span>3 elevators</span>
                           </li>
                           <li>
@@ -666,11 +673,11 @@ export default function Home() {
                         </p>
                         <ul className={styles.luxury_services}>
                           <li>
-                            <Image src={DoubleBedIcon} alt="double bed" />{" "}
+                            <Image src={Floors} alt="double bed" />{" "}
                             <span>23 floors</span>
                           </li>
                           <li>
-                            <Image src={BathtubIcon} alt="bathtub" />{" "}
+                            <Image src={Parking} alt="bathtub" />{" "}
                             <span>4 floors of parking area</span>
                           </li>
                           <li>

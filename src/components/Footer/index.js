@@ -52,15 +52,6 @@ const Footer = () =>  {
             </li>
             <li>
               <Link
-                href="/projects"
-                passHref
-                className={pathname === "/projects" ? styles.active : ""}
-              >
-                Projects
-              </Link>
-            </li>
-            <li>
-              <Link
                 href="/about"
                 passHref
                 className={pathname === "/about" ? styles.active : ""}
@@ -68,6 +59,15 @@ const Footer = () =>  {
                 About Us
               </Link>
             </li>
+            <li>
+              <Link
+                href="/projects"
+                passHref
+                className={pathname === "/projects" ? styles.active : ""}
+              >
+                Projects
+              </Link>
+            </li>            
             <li>
               <Link
                 href="/news"

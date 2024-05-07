@@ -94,7 +94,7 @@ const NavBar = () => {
                     setCurrentTab("home");
                     handleNavigation();
                   }}
-                  className={currentTab === "home" ? styles.active : ""}
+                  className={pathname === "/" ? styles.active : ""}
                 >
                   Home
                 </Link>
@@ -107,7 +107,7 @@ const NavBar = () => {
                     setCurrentTab("about");
                     handleNavigation();
                   }}
-                  className={currentTab === "about" ? styles.active : ""}
+                  className={pathname === "/about" ? styles.active : ""}
                 >
                   About Us
                 </Link>
@@ -120,7 +120,7 @@ const NavBar = () => {
                     setCurrentTab("projects");
                     handleNavigation();
                   }}
-                  className={currentTab === "projects" ? styles.active : ""}
+                  className={pathname === "/projects" ? styles.active : ""}
                 >
                   Projects
                 </Link>
@@ -133,7 +133,7 @@ const NavBar = () => {
                     setCurrentTab("news");
                     handleNavigation();
                   }}
-                  className={currentTab === "news" ? styles.active : ""}
+                  className={pathname === "/news" ? styles.active : ""}
                 >
                   News & Media
                 </Link>
@@ -146,7 +146,7 @@ const NavBar = () => {
                     setCurrentTab("contact");
                     handleNavigation();
                   }}
-                  className={currentTab === "contact" ? styles.active : ""}
+                  className={pathname === "/contact" ? styles.active : ""}
                 >
                   Contact
                 </Link>
