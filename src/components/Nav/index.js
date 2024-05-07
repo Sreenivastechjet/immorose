@@ -148,7 +148,7 @@ const NavBar = () => {
                   }}
                   className={pathname === "/contact" ? styles.active : ""}
                 >
-                  Contact
+                  Contact Us
                 </Link>
               </li>
             </ul>
