@@ -1062,81 +1062,81 @@ const About = () => {
               <div className={styles.gallery_item}>
                 <div className={styles.long_img}>
                   <Image
-                    src={"/assets/images/gallery_1.webp"}
+                    src={"/assets/images/gallery_1.jpeg"}
                     alt={"Rosons Towers"}
                     width={1920}
                     height={700}
-                    onClick={() => openModal("/assets/images/gallery_1.webp")}
+                    onClick={() => openModal("/assets/images/gallery_1.jpeg")}
                   />
                 </div>
                 <div className={styles.small_img}>
                   <Image
-                    src={"/assets/images/gallery_2.webp"}
+                    src={"/assets/images/gallery_2.jpeg"}
                     alt={"Rosons Towers"}
                     width={1920}
                     height={700}
-                    onClick={() => openModal("/assets/images/gallery_2.webp")}
+                    onClick={() => openModal("/assets/images/gallery_2.jpeg")}
                   />
                   <Image
-                    src={"/assets/images/gallery_3.webp"}
+                    src={"/assets/images/gallery_3.jpeg"}
                     alt={"Rosons Towers"}
                     width={1920}
                     height={700}
-                    onClick={() => openModal("/assets/images/gallery_3.webp")}
+                    onClick={() => openModal("/assets/images/gallery_3.jpeg")}
                   />
                 </div>
               </div>
               <div className={styles.gallery_item}>
                 <div className={styles.long_img}>
                   <Image
-                    src={"/assets/images/gallery_4.webp"}
+                    src={"/assets/images/gallery_4.jpeg"}
                     alt={"Rosons Towers"}
                     width={1920}
                     height={700}
-                    onClick={() => openModal("/assets/images/gallery_4.webp")}
+                    onClick={() => openModal("/assets/images/gallery_4.jpeg")}
                   />
                 </div>
                 <div className={styles.small_img}>
                   <Image
-                    src={"/assets/images/gallery_5.webp"}
+                    src={"/assets/images/gallery_5.jpeg"}
                     alt={"Rosons Towers"}
                     width={1920}
                     height={700}
-                    onClick={() => openModal("/assets/images/gallery_5.webp")}
+                    onClick={() => openModal("/assets/images/gallery_5.jpeg")}
                   />
                   <Image
-                    src={"/assets/images/gallery_6.webp"}
+                    src={"/assets/images/gallery_6.jpeg"}
                     alt={"Rosons Towers"}
                     width={1920}
                     height={700}
-                    onClick={() => openModal("/assets/images/gallery_6.webp")}
+                    onClick={() => openModal("/assets/images/gallery_6.jpeg")}
                   />
                 </div>
               </div>
               <div className={styles.gallery_item}>
                 <div className={styles.long_img}>
                   <Image
-                    src={"/assets/images/gallery_1.webp"}
+                    src={"/assets/images/gallery_7.jpeg"}
                     alt={"Rosons Towers"}
                     width={1920}
                     height={700}
-                    onClick={() => openModal("/assets/images/gallery_1.webp")}
+                    onClick={() => openModal("/assets/images/gallery_7.jpeg")}
                   />
                 </div>
                 <div className={styles.small_img}>
                   <Image
-                    src={"/assets/images/gallery_2.webp"}
+                    src={"/assets/images/gallery_8.jpeg"}
                     alt={"Rosons Towers"}
                     width={1920}
                     height={700}
-                    onClick={() => openModal("/assets/images/gallery_2.webp")}
+                    onClick={() => openModal("/assets/images/gallery_8.jpeg")}
                   />
                   <Image
-                    src={"/assets/images/gallery_3.webp"}
+                    src={"/assets/images/gallery_1.jpeg"}
                     alt={"Rosons Towers"}
                     width={1920}
                     height={700}
-                    onClick={() => openModal("/assets/images/gallery_3.webp")}
+                    onClick={() => openModal("/assets/images/gallery_1.jpeg")}
                   />
                 </div>
               </div>
