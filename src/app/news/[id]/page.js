@@ -15,7 +15,7 @@ import "aos/dist/aos.css";
 
 // Images
 import BlogDetailBanner from "../../../../public/assets/images/blog_details.webp";
-import ProfileImg from "../../../../public/assets/images/profile.webp";
+// import ProfileImg from "../../../../public/assets/images/profile.webp";
 import RelatedBlogVector from "../../../../public/assets/images/related_blog_vector.png";
 
 // Icons
@@ -64,8 +64,9 @@ const NewsDetail = () => {
           <span className={styles.badge} data-aos="fade-up">Blog</span>
           <div className={styles.banner_content_div}>
             <div className={styles.heading}>
-              <h1 data-aos="fade-up">Premier Property Insights</h1>
-              <div className={styles.profile} data-aos="fade-up">
+              <h1 data-aos="fade-up">LUXURY BY IMMOROSE</h1>
+              <p>“ Luxury is in each detail “ - Hubert de Givenchy</p>
+              {/* <div className={styles.profile} data-aos="fade-up">
                 <Image
                   src={ProfileImg}
                   width={40}
@@ -77,17 +78,15 @@ const NewsDetail = () => {
                   Joanna Wellick <span className={styles.vector_line}></span>
                 </p>
                 <span>June 28, 2018</span>
-              </div>
+              </div> */}
             </div>
-            <p className={styles.cont_info} data-aos="fade-up">
-              9 Carat - where sophistication meets comfort, creating your
-              ultimate dream home. Experience opulence like never before after
-              reaching this destination to ..
-            </p>
+            {/* <p className={styles.cont_info} data-aos="fade-up">
+            In a world where luxury knows no bounds, premier property insights are your key to unlocking the pinnacle of refined living.
+            </p> */}
           </div>
         </div>
         <Image
-          src={BlogDetailBanner}
+          src={"/assets/images/blog1.JPEG"}
           width={1920}
           height={546}
           alt="banner"
@@ -99,28 +98,25 @@ const NewsDetail = () => {
       <section className={styles.article_wrapper}>
         <div className={styles.article_cont}>
           <p data-aos="fade-up">
-            Welcome to Premier Property Insights, your gateway to the world of
-            luxury living. In this exclusive blog, we invite you to embark on a
-            journey of opulence and sophistication as we delve into the
-            exquisite details of premier properties around the globe.
+            Luxury refers to a state of great comfort or elegance, often involving high quality or expensive items or experiences that are not considered essential to everyday life.Luxury goods or services are often associated with superior quality, exclusivity and indulgence. Luxury goods are considered status symbols. They convey a sense of exclusivity, prestige and quality. They can also offer unique experiences, exceptional craftsmanship, superior materials and attention to detail that can enhance a person's lifestyle or enjoyment. People seek luxury for various reasons, such as fulfilling their desire for exclusivity, status, or even as a form of self-expression. Choosing luxury is a personal decision that depends on individual preferences, values, and circumstances.
           </p>
-          <p data-aos="fade-up">
+          {/* <p data-aos="fade-up">
             Step inside the most prestigious residences, where every corner
             exudes elegance and refinement. From sprawling estates nestled in
             lush landscapes to sleek urban penthouses with panoramic city views,
             we bring you inside some of the most coveted addresses in the world.
-          </p>
-          <p data-aos="fade-up">
+          </p> */}
+          {/* <p data-aos="fade-up">
             Our blog goes beyond the surface, providing you with in-depth
             analyses of architectural brilliance, innovative design concepts,
             and cutting-edge amenities that define luxury living. Discover the
             latest trends in high-end real estate, from smart home technologies
             to eco-friendly features tailored for the discerning homeowner.
-          </p>
+          </p> */}
           <ul className={styles.article_images} data-aos="fade-up">
             <li>
               <Image
-                src={BlogDetailBanner}
+                src={"/assets/images/blog2.JPEG"}
                 width={1920}
                 height={546}
                 alt="article"
@@ -128,21 +124,21 @@ const NewsDetail = () => {
             </li>
             <li>
               <Image
-                src={BlogDetailBanner}
+                src={"/assets/images/blog4.JPEG"}
                 width={1920}
                 height={546}
                 alt="article"
               />
             </li>
           </ul>
-          <p data-aos="fade-up">
+          {/* <p data-aos="fade-up">
             But Premier Property Insights is more than just a showcase of lavish
             homes; it's a platform for inspiration and aspiration. Whether
             you're a seasoned investor, a prospective buyer, or simply an
             enthusiast of luxury lifestyles, our blog offers valuable insights
             and insider perspectives to guide you on your journey to finding
             your dream home.
-          </p>
+          </p> */}
           <div className={`cmn_heading ${styles.heading}`} data-aos="fade-up">
             <span>
               <BiSolidQuoteAltLeft />
@@ -152,21 +148,21 @@ const NewsDetail = () => {
               is your key to unlocking the pinnacle of refined living.
             </h2>
           </div>
-          <p data-aos="fade-up">
+          {/* <p data-aos="fade-up">
             Join us as we uncover the secrets behind premier properties and
             explore the unparalleled experiences they offer. From exclusive
             interviews with renowned architects and interior designers to expert
             tips on luxury real estate investment, Premier Property Insights is
             your ultimate source for all things opulent and extraordinary.
             Welcome to a world where luxury knows no bounds.
-          </p>
+          </p> */}
           <ul className={styles.tags} data-aos="fade-up">
             <li>Premier Property</li>
             <li>luxury</li>
             <li>9 Carat</li>
           </ul>
           <div className={styles.article_info}>
-            <div className={styles.profile} data-aos="fade-up">
+            {/* <div className={styles.profile} data-aos="fade-up">
               <Image
                 src={ProfileImg}
                 width={50}
@@ -177,7 +173,7 @@ const NewsDetail = () => {
                 <p>Joanna Wellick</p>
                 <span>Designer</span>
               </div>
-            </div>
+            </div> */}
             <ul className={styles.social_icons} data-aos="fade-up">
               <li>
                 <Link href="#">
@@ -202,7 +198,7 @@ const NewsDetail = () => {
             </ul>
           </div>
         </div>
-        <div className={styles.article_side_cont}>
+        {/* <div className={styles.article_side_cont}>
           <button data-aos="fade-up">
             Listen to this article <RiVolumeUpLine />
           </button>
@@ -218,7 +214,7 @@ const NewsDetail = () => {
             </div>
             <p data-aos="fade-up">4 Mins Read</p>
           </div>
-        </div>
+        </div> */}
       </section>
       {/* Related Blogs */}
       <section className={styles.related_blogs}>
@@ -312,7 +308,7 @@ const NewsDetail = () => {
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide>
+            {/* <SwiperSlide>
               <div className={styles.blog_item}>
                 <div className={styles.blog_img}>
                   <Image
@@ -334,8 +330,8 @@ const NewsDetail = () => {
                   </p>
                 </div>
               </div>
-            </SwiperSlide>
-            <SwiperSlide>
+            </SwiperSlide> */}
+            {/* <SwiperSlide>
               <div className={styles.blog_item}>
                 <div className={styles.blog_img}>
                   <Image
@@ -357,21 +353,19 @@ const NewsDetail = () => {
                   </p>
                 </div>
               </div>
-            </SwiperSlide>
+            </SwiperSlide> */}
           </Swiper>
           <div className={styles.navigation_btn}>
             <div
-              className={`${styles.prev_arrow} ${
-                isFirstSlide ? styles.active : ""
-              }`}
+              className={`${styles.prev_arrow} ${isFirstSlide ? styles.active : ""
+                }`}
               onClick={handlePrevNewsMedia}
             >
               <FaArrowLeft />
             </div>
             <div
-              className={`${styles.next_arrow} ${
-                isLastSlide ? styles.active : ""
-              }`}
+              className={`${styles.next_arrow} ${isLastSlide ? styles.active : ""
+                }`}
               onClick={handleNextNewsMedia}
             >
               <FaArrowRight />

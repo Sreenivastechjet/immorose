@@ -505,7 +505,7 @@ export default function Home() {
                         >
                           <SwiperSlide>
                             <Image
-                              src={"/assets/images/slider2_1.jpg"}
+                              src={"/assets/images/slider3_1.jpg"}
                               alt={"Rosons Towers"}
                               width={1920}
                               height={700}
@@ -513,7 +513,7 @@ export default function Home() {
                           </SwiperSlide>
                           <SwiperSlide>
                             <Image
-                              src={"/assets/images/slider2_2.jpg"}
+                              src={"/assets/images/slider3_2.jpg"}
                               alt={"Rosons Towers"}
                               width={1920}
                               height={700}
@@ -521,7 +521,7 @@ export default function Home() {
                           </SwiperSlide>
                           <SwiperSlide>
                             <Image
-                              src={"/assets/images/slider2_3.jpg"}
+                              src={"/assets/images/slider3_3.jpg"}
                               alt={"Rosons Towers"}
                               width={1920}
                               height={700}
@@ -529,7 +529,7 @@ export default function Home() {
                           </SwiperSlide>
                           <SwiperSlide>
                             <Image
-                              src={"/assets/images/slider2_4.jpg"}
+                              src={"/assets/images/slider3_4.jpg"}
                               alt={"Rosons Towers"}
                               width={1920}
                               height={700}
@@ -570,7 +570,7 @@ export default function Home() {
                             onClick={() => handleOptionClick2(0)}
                           >
                             <Image
-                              src={"/assets/images/slider2_1.jpg"}
+                              src={"/assets/images/slider3_1.jpg"}
                               alt={"Rosons Towers"}
                               width={100}
                               height={100}
@@ -581,7 +581,7 @@ export default function Home() {
                             onClick={() => handleOptionClick2(1)}
                           >
                             <Image
-                              src={"/assets/images/slider2_2.jpg"}
+                              src={"/assets/images/slider3_2.jpg"}
                               alt={"Rosons Towers"}
                               width={100}
                               height={100}
@@ -592,7 +592,7 @@ export default function Home() {
                             onClick={() => handleOptionClick2(2)}
                           >
                             <Image
-                              src={"/assets/images/slider2_3.jpg"}
+                              src={"/assets/images/slider3_3.jpg"}
                               alt={"Rosons Towers"}
                               width={100}
                               height={100}
@@ -603,7 +603,7 @@ export default function Home() {
                             onClick={() => handleOptionClick2(3)}
                           >
                             <Image
-                              src={"/assets/images/slider2_4.jpg"}
+                              src={"/assets/images/slider3_4.jpg"}
                               alt={"Rosons Towers"}
                               width={100}
                               height={100}
@@ -630,7 +630,7 @@ export default function Home() {
                         >
                           <SwiperSlide>
                             <Image
-                              src={"/assets/images/slider3_1.jpg"}
+                              src={"/assets/images/slider2_1.jpg"}
                               alt={"Rosons Towers"}
                               width={1920}
                               height={700}
@@ -638,7 +638,7 @@ export default function Home() {
                           </SwiperSlide>
                           <SwiperSlide>
                             <Image
-                              src={"/assets/images/slider3_2.jpg"}
+                              src={"/assets/images/slider2_2.jpg"}
                               alt={"Rosons Towers"}
                               width={1920}
                               height={700}
@@ -646,7 +646,7 @@ export default function Home() {
                           </SwiperSlide>
                           <SwiperSlide>
                             <Image
-                              src={"/assets/images/slider3_3.jpg"}
+                              src={"/assets/images/slider2_3.jpg"}
                               alt={"Rosons Towers"}
                               width={1920}
                               height={700}
@@ -654,7 +654,7 @@ export default function Home() {
                           </SwiperSlide>
                           <SwiperSlide>
                             <Image
-                              src={"/assets/images/slider3_4.jpg"}
+                              src={"/assets/images/slider2_4.jpg"}
                               alt={"Rosons Towers"}
                               width={1920}
                               height={700}
@@ -695,7 +695,7 @@ export default function Home() {
                             onClick={() => handleOptionClick3(0)}
                           >
                             <Image
-                              src={"/assets/images/slider3_1.jpg"}
+                              src={"/assets/images/slider2_1.jpg"}
                               alt={"Rosons Towers"}
                               width={100}
                               height={100}
@@ -706,7 +706,7 @@ export default function Home() {
                             onClick={() => handleOptionClick3(1)}
                           >
                             <Image
-                              src={"/assets/images/slider3_2.jpg"}
+                              src={"/assets/images/slider2_2.jpg"}
                               alt={"Rosons Towers"}
                               width={100}
                               height={100}
@@ -717,7 +717,7 @@ export default function Home() {
                             onClick={() => handleOptionClick3(2)}
                           >
                             <Image
-                              src={"/assets/images/slider3_3.jpg"}
+                              src={"/assets/images/slider2_3.jpg"}
                               alt={"Rosons Towers"}
                               width={100}
                               height={100}
@@ -728,7 +728,7 @@ export default function Home() {
                             onClick={() => handleOptionClick3(3)}
                           >
                             <Image
-                              src={"/assets/images/slider3_4.jpg"}
+                              src={"/assets/images/slider2_4.jpg"}
                               alt={"Rosons Towers"}
                               width={100}
                               height={100}

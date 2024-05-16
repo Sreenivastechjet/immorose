@@ -73,13 +73,13 @@ const Projects = () => {
     "/assets/images/slider1_3.jpg",
     "/assets/images/slider1_4.jpg",
   ];
-  const images1 = [
+  const images2 = [
     "/assets/images/slider2_1.jpg",
     "/assets/images/slider2_2.jpg",
     "/assets/images/slider2_3.jpg",
     "/assets/images/slider2_4.jpg",
   ];
-  const images2 = [
+  const images1 = [
     "/assets/images/slider3_1.jpg",
     "/assets/images/slider3_2.jpg",
     "/assets/images/slider3_3.jpg",

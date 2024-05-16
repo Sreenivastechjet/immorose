@@ -133,16 +133,16 @@ const About = () => {
   const [isFirstSlide, setIsFirstSlide] = useState(true);
   const [isLastSlide, setIsLastSlide] = useState(false);
 
-  useEffect(() => {
-    const swiper = teamSliderRef.current.swiper;
+  // useEffect(() => {
+  //   const swiper = teamSliderRef.current.swiper;
 
-    if (swiper) {
-      swiper.on('slideChange', () => {
-        setIsFirstSlide(swiper.isBeginning);
-        setIsLastSlide(swiper.isEnd);
-      });
-    }
-  }, []);
+  //   if (swiper) {
+  //     swiper.on('slideChange', () => {
+  //       setIsFirstSlide(swiper.isBeginning);
+  //       setIsLastSlide(swiper.isEnd);
+  //     });
+  //   }
+  // }, []);
 
   const teamSliderRef = useRef(null);
   const teamSliderRef2 = useRef(null);
@@ -451,7 +451,7 @@ const About = () => {
         </div>
       </section>
       {/* Unique selling option */}
-      <section className={styles.unique_selling_option}>
+      {/* <section className={styles.unique_selling_option}>
         <div className={styles.meida_banner_right}>
           <Image src={VectorBg} alt="" />
         </div>
@@ -577,9 +577,9 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Team section */}
-      <section className={styles.team}>
+      {/* <section className={styles.team}>
         <div className={styles.team_inner}>
           <div className={styles.main_heading}>
             <h3 data-aos="fade-up">People Behind This</h3>
@@ -1049,7 +1049,7 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Gallery */}
       <section className={styles.gallery}>
         <div className={`cmn_heading ${styles.heading}`}>
