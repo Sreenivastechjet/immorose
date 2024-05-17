@@ -251,7 +251,7 @@ const News = () => {
             <div className={styles.article_item} data-aos="fade-up">
               <div className={styles.article_img}>
                 <Image
-                  src={"/assets/images/blog1.JPEG"}
+                  src={"/assets/images/blog1.jpeg"}
                   width={1920}
                   height={546}
                   alt="article"
@@ -284,7 +284,7 @@ const News = () => {
             <div className={styles.article_item} data-aos="fade-up">
               <div className={styles.article_img}>
                 <Image
-                  src={"/assets/images/blog6.JPEG"}
+                  src={"/assets/images/blog6.jpeg"}
                   width={1920}
                   height={546}
                   alt="article"
@@ -310,14 +310,14 @@ const News = () => {
                   <p>
                   Design is a multifaceted discipline that involves creating solutions to problems with the aim of enhancing the functionality, aesthetics, and overall user experience of a product, system, or service...
                   </p>
-                  <Link href={`/news/2`}>Read More</Link>
+                  <Link href={`/news/1`}>Read More</Link>
                 </div>
               </div>
             </div>
             <div className={styles.article_item} data-aos="fade-up">
               <div className={styles.article_img}>
                 <Image
-                  src={"/assets/images/blog10.JPEG"}
+                  src={"/assets/images/blog10.jpeg"}
                   width={1920}
                   height={546}
                   alt="article"
@@ -343,7 +343,7 @@ const News = () => {
                   <p>
                   Arthur Erickson became an architect after seeing the designs of Frank Lloyd Wright. Like his predecessor, he joined man-made structures and their environment in perfect balance...
                   </p>
-                  <Link href={`/news/3`}>Read More</Link>
+                  <Link href={`/news/1`}>Read More</Link>
                 </div>
               </div>
             </div>

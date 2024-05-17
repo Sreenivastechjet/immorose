@@ -86,7 +86,7 @@ const NewsDetail = () => {
           </div>
         </div>
         <Image
-          src={"/assets/images/blog1.JPEG"}
+          src={"/assets/images/blog1.jpeg"}
           width={1920}
           height={546}
           alt="banner"
@@ -116,7 +116,7 @@ const NewsDetail = () => {
           <ul className={styles.article_images} data-aos="fade-up">
             <li>
               <Image
-                src={"/assets/images/blog2.JPEG"}
+                src={"/assets/images/blog2.jpeg"}
                 width={1920}
                 height={546}
                 alt="article"
@@ -124,7 +124,7 @@ const NewsDetail = () => {
             </li>
             <li>
               <Image
-                src={"/assets/images/blog4.JPEG"}
+                src={"/assets/images/blog4.jpeg"}
                 width={1920}
                 height={546}
                 alt="article"
