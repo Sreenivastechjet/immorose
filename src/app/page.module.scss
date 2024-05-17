@@ -30,8 +30,10 @@
     position: relative;
     height: 800px;
     min-height: 100vh;
-    background-image: url("../../public/assets/images/hero_bg.webp");
-    background-size: cover;
+    // background-image: url("../../public/assets/images/hero_bg.webp");
+    background-image: url("../../public/assets/images/imagehomepage.jpeg");
+    // background-size:cover;
+    background-size:auto;
     background-position: center;
     @media (max-width: 991px) {
       height: 600px;

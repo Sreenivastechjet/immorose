@@ -287,7 +287,7 @@ export default function Home() {
           poster="/assets/images/media_bg.webp"
           controls={false}
         >
-          <source src="/assets/videos/video.mp4" type="video/mp4" />
+          <source src="/assets/videos/Vidéomakutano.mov" type="video/mp4" />
         </video>
         {!isPlaying ? (
           <div className={styles.play_btn} onClick={handlePlay}>

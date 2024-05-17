@@ -162,7 +162,7 @@ const Projects = () => {
               poster={"/assets/images/project_banner_poster.webp"}
               controls={false}
             >
-              <source src="/assets/videos/video.mp4" type="video/mp4" />
+              <source src="/assets/videos/Vidéomakutano.mov" type="video/mp4" />
             </video>
             {!isPlaying ? (
               <div className={styles.play_btn} onClick={handlePlay}>

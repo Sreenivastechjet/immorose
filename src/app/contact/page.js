@@ -7,7 +7,8 @@ import Image from "next/image";
 import GetInTouch from "@/components/GetInTouch";
 
 // Images
-import ContactBanner from "../../../public/assets/images/contact_banner.webp";
+// import ContactBanner from "../../../public/assets/images/contact_banner.webp";
+import ContactBanner from "../../../public/assets/images/contactusimage.png";
 
 // Icons
 import { FaAngleRight, FaAngleUp, FaAngleDown } from "react-icons/fa6";
