@@ -14,7 +14,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 // Images
-import BlogDetailBanner from "../../../../public/assets/images/blog_details.webp";
+import BlogDetailBanner from "../../../../public/assets/images/blog10.jpeg";
+import BlogDetailBanner2 from "../../../../public/assets/images/blog6.jpeg";
 // import ProfileImg from "../../../../public/assets/images/profile.webp";
 import RelatedBlogVector from "../../../../public/assets/images/related_blog_vector.png";
 
@@ -25,9 +26,10 @@ import { MdOutlineWhatsapp } from "react-icons/md";
 import { RiTwitterXLine, RiVolumeUpLine } from "react-icons/ri";
 import { FaArrowRight, FaArrowLeft, FaInstagram } from "react-icons/fa";
 
-const NewsDetail = () => {
+const NewsDetail = (params) => {
   const sliderRef2 = useRef(null);
 
+  console.log("first",params)
   const handlePrevNewsMedia = useCallback(() => {
     if (!sliderRef2.current) return;
     sliderRef2.current.swiper.slidePrev();
@@ -252,17 +254,36 @@ const NewsDetail = () => {
                 </div>
                 <div className={styles.blog_content}>
                   <span>08.08.2021</span>
-                  <h3>Premier Property Insights In Congo</h3>
+                  <h3>Design by Immorose</h3>
                   <p>
-                    9 Carat - where sophistication meets comfort, creating your
-                    ultimate dream home. Experience opulence like never before
-                    after reaching this destination to ..{" "}
+                    Design is a multifaceted discipline that involves creating solutions to problems with the aim of enhancing the functionality, aesthetics, and overall user experience of a product, system, or service...{" "}
                     <strong>Read more</strong>{" "}
                   </p>
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
+              <div className={styles.blog_item}>
+                <div className={styles.blog_img}>
+                  <Image
+                    src={BlogDetailBanner2}
+                    width={1920}
+                    height={546}
+                    alt="article"
+                  />
+                  <span>Blog</span>
+                </div>
+                <div className={styles.blog_content}>
+                  <span>08.08.2021</span>
+                  <h3>Extraordinary Homes by Immorose</h3>
+                  <p>
+                  Arthur Erickson became an architect after seeing the designs of Frank Lloyd Wright. Like his predecessor, he joined man-made structures and their environment in perfect balance. ..{" "}
+                    <strong>Read more</strong>{" "}
+                  </p>
+                </div>
+              </div>
+            </SwiperSlide>
+            {/* <SwiperSlide>
               <div className={styles.blog_item}>
                 <div className={styles.blog_img}>
                   <Image
@@ -284,30 +305,7 @@ const NewsDetail = () => {
                   </p>
                 </div>
               </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className={styles.blog_item}>
-                <div className={styles.blog_img}>
-                  <Image
-                    src={BlogDetailBanner}
-                    width={1920}
-                    height={546}
-                    alt="article"
-                  />
-                  <span>Blog</span>
-                </div>
-                <div className={styles.blog_content}>
-                  <span>08.08.2021</span>
-                  <h3>Premier Property Insights In Congo</h3>
-                  <p>
-                    9 Carat - where sophistication meets comfort, creating your
-                    ultimate dream home. Experience opulence like never before
-                    after reaching this destination to ..{" "}
-                    <strong>Read more</strong>{" "}
-                  </p>
-                </div>
-              </div>
-            </SwiperSlide>
+            </SwiperSlide> */}
             {/* <SwiperSlide>
               <div className={styles.blog_item}>
                 <div className={styles.blog_img}>

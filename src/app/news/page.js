@@ -277,7 +277,7 @@ const News = () => {
                   <p>
                   Luxury refers to a state of great comfort or elegance, often involving high quality or expensive items or experiences that are not considered essential to everyday life...
                   </p>
-                  <Link href={`/news/1`}>Read More</Link>
+                  <Link href={`/news/page1`}>Read More</Link>
                 </div>
               </div>
             </div>
@@ -310,7 +310,7 @@ const News = () => {
                   <p>
                   Design is a multifaceted discipline that involves creating solutions to problems with the aim of enhancing the functionality, aesthetics, and overall user experience of a product, system, or service...
                   </p>
-                  <Link href={`/news/1`}>Read More</Link>
+                  <Link href={`/news/page2`}>Read More</Link>
                 </div>
               </div>
             </div>
@@ -343,7 +343,7 @@ const News = () => {
                   <p>
                   Arthur Erickson became an architect after seeing the designs of Frank Lloyd Wright. Like his predecessor, he joined man-made structures and their environment in perfect balance...
                   </p>
-                  <Link href={`/news/1`}>Read More</Link>
+                  <Link href={`/news/page3`}>Read More</Link>
                 </div>
               </div>
             </div>
