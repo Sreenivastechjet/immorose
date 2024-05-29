@@ -160,11 +160,11 @@ const NewsDetail = (params) => {
             your ultimate source for all things opulent and extraordinary.
             Welcome to a world where luxury knows no bounds.
           </p> */}
-          <ul className={styles.tags} data-aos="fade-up">
+          {/* <ul className={styles.tags} data-aos="fade-up">
             <li>Premier Property</li>
             <li>luxury</li>
             <li>9 Carat</li>
-          </ul>
+          </ul> */}
           <div className={styles.article_info}>
             {/* <div className={styles.profile} data-aos="fade-up">
               <Image
@@ -259,7 +259,8 @@ const NewsDetail = (params) => {
                   <h3>LUXURY BY IMMOROSE</h3>
                   <p>
                     Luxury refers to a state of great comfort or elegance, often involving high quality or expensive items or experiences that are not considered essential to everyday life. ..{" "}
-                    <strong>Read more</strong>{" "}
+                    {/* <strong>Read more</strong>{" "} */}
+                    <Link href={`/news/page1`}><strong>Read more</strong></Link>
                   </p>
                 </div>
               </div>
@@ -279,8 +280,9 @@ const NewsDetail = (params) => {
                   <span>08.08.2021</span>
                   <h3>Extraordinary Homes by Immorose</h3>
                   <p>
-                    Arthur Erickson became an architect after seeing the designs of Frank Lloyd Wright. Like his predecessor, he joined man-made structures and their environment in perfect balance. ..{" "}
-                    <strong>Read more</strong>{" "}
+                    Arthur Erickson became an architect after seeing the designs of Frank Lloyd Wright. Like his predecessor, he joined man-made structures and their environment in...{" "}
+                    {/* <strong>Read more</strong>{" "} */}
+                    <Link href={`/news/page3`}><strong>Read more</strong></Link>
                   </p>
                 </div>
               </div>

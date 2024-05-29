@@ -3,29 +3,34 @@ import Image from "next/image";
 import styles from "./newsAndMedia.module.scss";
 import VectorBg from "../../../public/assets/images/vector_bg.webp";
 import { FaArrowRight } from "react-icons/fa";
+import Link from "next/link";
 
 function NewsAndMedia() {
 
-  const sliderData = [
+  const sliderData = [    
     {
-        img: "/assets/images/news_media.webp",
-        heading: "Discover the Elegance of 9 Carat..",
-        info: "9 Carat - where sophistication meets comfort, creating your ultimate dream home. Experience opulence like never before after reaching this destination to .."
-    },
-    {
-        img: "/assets/images/services_img4.webp",
-        heading: "Discover the Elegance of 9 Carat..",
-        info: "9 Carat - where sophistication meets comfort, creating your ultimate dream home. Experience opulence like never before after reaching this destination to .."
-    },
-    {
-      img: "/assets/images/news_media.webp",
-      heading: "Discover the Elegance of 9 Carat..",
-      info: "9 Carat - where sophistication meets comfort, creating your ultimate dream home. Experience opulence like never before after reaching this destination to .."
+      img: "/assets/images/blog7.jpeg",
+      heading: "Extraordinary Homes by Immorose",
+      info: "Arthur Erickson became an architect after seeing the designs of Frank Lloyd Wright. Like his predecessor, he joined man-made structures and their environment in perfect balance...",
+      url:"/news/page3"
   },
+    {
+        img: "/assets/images/blog1.jpeg",
+        heading: "LUXURY BY IMMOROSE",
+        info: "Luxury refers to a state of great comfort or elegance, often involving high quality or expensive items or experiences that are not considered essential to everyday life...",
+        url:"/news/page1"
+    },
+    {
+        img: "/assets/images/blog6.jpeg",
+        heading: "Design by Immorose",
+        info: "Design is a multifaceted discipline that involves creating solutions to problems with the aim of enhancing the functionality, aesthetics, and overall user experience of a product, system, or service...",
+        url:"/news/page2"
+    },
   {
-      img: "/assets/images/services_img4.webp",
-      heading: "Discover the Elegance of 9 Carat..",
-      info: "9 Carat - where sophistication meets comfort, creating your ultimate dream home. Experience opulence like never before after reaching this destination to .."
+      img: "/assets/images/blog8.jpeg",
+      heading: "Extraordinary Homes by Immorose",
+      info: "Arthur Erickson became an architect after seeing the designs of Frank Lloyd Wright. Like his predecessor, he joined man-made structures and their environment in perfect balance...",
+      url:"/news/page3"
   }
 ]
 
@@ -60,7 +65,7 @@ const [currentIndex, setCurrentIndex] = useState(0);
                     <h2>{item.heading}</h2>
                     <p>
                       {item.info}
-                      <strong>Read more</strong>
+                      <Link href={item.url}><strong>Read more</strong></Link>
                     </p>
                   </div>
                 </div>
