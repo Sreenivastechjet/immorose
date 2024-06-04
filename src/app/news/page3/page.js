@@ -103,7 +103,7 @@ const NewsDetail = (params) => {
     {/* Article */}
       <section className={styles.single_article}>
         <div className={styles.heading}>
-          <h1 data-aos="fade-up">Antti Lovag, Bubble Palace </h1><span data-aos="fade-up">( 1989 )</span>
+          <h1 data-aos="fade-up">Antti Lovag, Bubble Palace &nbsp; <span data-aos="fade-up">( 1989 )</span></h1>
         </div>
         <p data-aos="fade-up">Théoule-sur-Mer, France <br /></p>
         <br />
@@ -120,7 +120,7 @@ const NewsDetail = (params) => {
 
       <section className={styles.single_article}>
         <div className={styles.heading}>
-          <h1 data-aos="fade-up">Arthur Erickson, Graham House  </h1><span data-aos="fade-up">( 1962 )</span>
+          <h1 data-aos="fade-up">Arthur Erickson, Graham House  &nbsp;  <span data-aos="fade-up">( 1962 )</span></h1>
         </div>
         <p data-aos="fade-up">West Vancouver, British Columbia, Canada <br /></p>
         <br />
@@ -137,7 +137,7 @@ const NewsDetail = (params) => {
 
       <section className={styles.single_article}>
         <div className={styles.heading}>
-          <h1 data-aos="fade-up">Dan Naegle, Bell Beach House  </h1><span data-aos="fade-up">( 1965 )</span>
+          <h1 data-aos="fade-up">Dan Naegle, Bell Beach House &nbsp;  <span data-aos="fade-up">( 1965 )</span></h1>
         </div>
         <p data-aos="fade-up">San Diego, California, United States. <br /></p>
         <br />
@@ -154,7 +154,7 @@ const NewsDetail = (params) => {
 
       <section className={styles.single_article}>
         <div className={styles.heading}>
-          <h1 data-aos="fade-up">Frank Lloyd Wright, Fallingwater </h1><span data-aos="fade-up">( 1939 )</span>
+          <h1 data-aos="fade-up">Frank Lloyd Wright, Fallingwater  &nbsp; <span data-aos="fade-up">( 1939 )</span></h1>
         </div>
         <p data-aos="fade-up">Bear Run, Pennsylvania, United States. <br /></p>
         <br />
@@ -171,7 +171,7 @@ const NewsDetail = (params) => {
 
       <section className={styles.single_article}>
         <div className={styles.heading}>
-          <h1 data-aos="fade-up">Gilbartolome Architects, The House on the Cliff </h1><span data-aos="fade-up">( 2015 )</span>
+          <h1 data-aos="fade-up">Gilbartolome Architects, The House on the Cliff &nbsp; <span data-aos="fade-up">( 2015 )</span> </h1>
         </div>
         <p data-aos="fade-up">Granada, Spain <br /></p>
         <br />

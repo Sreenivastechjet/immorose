@@ -11,25 +11,25 @@ function NewsAndMedia() {
     {
       img: "/assets/images/blog7.jpeg",
       heading: "Extraordinary Homes by Immorose",
-      info: "Arthur Erickson became an architect after seeing the designs of Frank Lloyd Wright. Like his predecessor, he joined man-made structures and their environment in perfect balance...",
+      info: "Arthur Erickson became an architect after seeing the designs of Frank Lloyd Wright. Like his predecessor, he joined man-made structures and their environment...",
       url:"/news/page3"
   },
     {
         img: "/assets/images/blog1.jpeg",
         heading: "LUXURY BY IMMOROSE",
-        info: "Luxury refers to a state of great comfort or elegance, often involving high quality or expensive items or experiences that are not considered essential to everyday life...",
+        info: "Luxury refers to a state of great comfort or elegance, often involving high quality or expensive items or experiences that are not considered essential to...",
         url:"/news/page1"
     },
     {
         img: "/assets/images/blog6.jpeg",
         heading: "Design by Immorose",
-        info: "Design is a multifaceted discipline that involves creating solutions to problems with the aim of enhancing the functionality, aesthetics, and overall user experience of a product, system, or service...",
+        info: "Design is a multifaceted discipline that involves creating solutions to problems with the aim of enhancing the functionality, aesthetics, and overall user experience ...",
         url:"/news/page2"
     },
   {
       img: "/assets/images/blog8.jpeg",
       heading: "Extraordinary Homes by Immorose",
-      info: "Arthur Erickson became an architect after seeing the designs of Frank Lloyd Wright. Like his predecessor, he joined man-made structures and their environment in perfect balance...",
+      info: "Arthur Erickson became an architect after seeing the designs of Frank Lloyd Wright. Like his predecessor, he joined man-made structures and thei...",
       url:"/news/page3"
   }
 ]

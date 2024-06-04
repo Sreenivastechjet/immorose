@@ -330,16 +330,13 @@ const About = () => {
               <li>
                 <h3>Our Vision</h3>
                 <p>
-                  With the ambition of building 1,000,000m by 2025, we intend to position ourselfves as undisputed leader in the high end property sector, off ering exclusive and exceptional properties to a discerning clientele.
-                  IMMOROSE stands out for its in-depth expertise ot the luxury market, understanding current trends the specifi c needs of its client. it is also recogsnised for its ability to off er unique, high-quality properties, combining cutting-edge technology, innovative dsign and the highest quality materials.
+                With the ambition of building 1,000,000m by 2025, we intend to position ourselves as an undisputed leader in the high-end property sector, offering exclusive and exceptional properties to a discerning clientele. IMMOROSE stands out for its in-depth expertise in the luxury market, understanding current trends and the specific needs of its clients. It is also recognised for its ability to offer unique, high-quality properties, combining cutting-edge technology, innovative design, and the highest quality materials.
                 </p>
               </li>
               <li>
                 <h3>Our Mission</h3>
                 <p>
-                  To provide high-end real estate by meeting the needs and requiremment for exlusive and luxurious properties.
-                  To provide an impeccable amd personalised level of service to our clients by off ering developping investment strategies tailored to our clients needs and objectives.
-                  Guaranteeing confi dentiality information and discretion for our privileged clients, by respecting their privacy treating all confi dential information with utmost importance.
+                To provide high-end real estate by meeting the needs and requirements for exclusive and luxurious properties. To provide an impeccable and personalised level of service to our clients by developing investment strategies tailored to their needs and objectives. Guaranteeing confidential information and discretion for our privileged clients by respecting their privacy and treating all confidential information with the utmost importance.
                 </p>
               </li>
             </ul>
